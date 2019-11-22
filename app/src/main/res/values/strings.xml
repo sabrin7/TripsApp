@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Excursion</string>
+    <string name="user">user</string>
+    <string name="agency">agency</string>
+    <string name="sign_up">sign up</string>
+    <string name="log_in">log in</string>
+    <string name="agency_name">agency name</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="number_of_places">Number of places</string>
+    <string name="price">Price</string>
+    <string name="plannig">Plannig</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="Phone">Phone</string>
+    <string name="Email">Email</string>
+    <string name="book">Book</string>
+    <string name="choose_button">Please choose a button</string>
+    <string name="add">Add</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="modify">modify</string>
+    <string name="nbr_places">number of places</string>
+    <string name="suggestion">What is your suggestion for the next trip ?</string>
+    <string name="confirm">confirm</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.LogActivity">
+    <EditText
+        android:id="@+id/activity_log_agency_name"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="80dp"
+        android:hint="@string/agency_name"
+        android:inputType="text"
+        android:layout_marginLeft="80dp" />
+    <EditText
+        android:id="@+id/activity_log_password"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="80dp" />
+    <Button
+        android:id="@+id/activity_log_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/log_in"
+        android:layout_marginLeft="110dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

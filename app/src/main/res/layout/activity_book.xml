@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.BookActivity">
+
+    <EditText
+        android:id="@+id/activity_book_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/name"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/activity_book_surname"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/surname"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/activity_book_phone"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/phone"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/activity_book_email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/activity_book_nbr_places"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/nbr_places"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/activity_book_btn"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/book"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>

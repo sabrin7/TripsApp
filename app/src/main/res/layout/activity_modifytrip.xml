@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.ModifytripActivity">
+
+    <EditText
+        android:id="@+id/activity_modifytrip_destination"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="@string/destination"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/activity_modifytrip_planning"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/activity_modifytrip_price"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/plannig"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/activity_modifytrip_price"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/activity_modifytrip_day"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/activity_modifytrip_destination"
+        android:layout_marginEnd="84dp"
+        android:hint="@string/day"
+        android:inputType="number"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="84dp" />
+
+    <EditText
+        android:id="@+id/activity_modifytrip_month"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/activity_modifytrip_destination"
+        android:layout_below="@+id/activity_modifytrip_destination"
+        android:hint="@string/month"
+        android:inputType="number"
+        android:layout_alignLeft="@+id/activity_modifytrip_destination" />
+    <EditText
+        android:id="@+id/activity_modifytrip_nbr_places"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:hint="@string/number_of_places"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/activity_modifytrip_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:text="@string/modify" />
+
+</RelativeLayout>

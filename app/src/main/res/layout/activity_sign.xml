@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.SignActivity">
+    <EditText
+        android:id="@+id/activity_sign_agency_name"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/agency_name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/activity_sign_phone"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/phone"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/activity_sign_email"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/activity_sign_password"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/activity_sign_confirm_password"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/activity_sign_sign_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/sign_in"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="80dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>
